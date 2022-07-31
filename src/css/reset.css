@@ -76,7 +76,7 @@ body {
     position: absolute;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    transition: opacity 0,3s ease-in-out;
+    transition: opacity 0.3s ease-in-out;
 }
 
 .cartao.selecionado {
