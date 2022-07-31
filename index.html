@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Pokémon Slider</title>
+    
+    <!-- icone pequeno que fica na aba do navegador -->
+    <link rel="shortcut icon" href="src/imagens/pikachu.png" type="image/x-icon">
+
+    <!-- fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet">
+
+    <!-- estilo do css -->
+    <link rel="stylesheet" href="src/css/reset.css">
+    <!-- estilo do responsivo -->
+    <link rel="stylesheet" href="src/css/responsivo.css">
+   
+</head>
+<body>
+    <header class="cabecalho">
+        <img src="src/imagens/pokebola.png" alt="pokebola" class="pokebola"><h1 class="titulo">Projeto Pokémon</h1>
+    </header>
+    <main class="pokemon-slider">
+        <button class="btn-seta btn-voltar" id="btn-voltar">
+            <img src="src/imagens/seta.png" alt="seta voltar">
+        </button>
+        <ul class="lista-pokemons">
+            <li class="cartao selecionado fundo-1">
+                <div class="informacoes">
+                    <h2 class="pokemon">Articuno</h2>
+                    <p class="hp">HP 850</p>
+                </div>
+                <div class="container-imagem">
+                    <img src="src/imagens/articuno.png" alt="Articuno" class="imagem-pokemon">
+                </div>
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">Articuno é um pokémon pássaro lendário que pode controlar o gelo. O bater de suas asas arrepia o ar. Como resultado, é dito que quando este Pokémon voa, a neve cairá.</p>
+                </div>
+            </li>
+            <li class="cartao fundo-2">
+                <div class="informacoes">
+                    <h2 class="pokemon">Zapdos</h2>
+                    <p class="hp">HP 800</p>
+                </div>
+                <div class="container-imagem">
+                    <img src="src/imagens/zapdos.png" alt="zapdos" class="imagem-pokemon">
+                </div>
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">Zapdos é um Pokémon Lendário do tipo Elétrico e Voador introduzido na Geração I. Ele, Articuno e Moltres formam as Aves Lendárias de Kanto. É um Pokémon Errante.</p>
+                </div>
+            </li>
+            <li class="cartao fundo-3">
+                <div class="informacoes">
+                    <h2 class="pokemon">Moltres</h2>
+                    <p class="hp">HP 900</p>
+                </div>
+                <div class="container-imagem">
+                    <img src="src/imagens/moltres.png" alt="moltres" class="imagem-pokemon">
+                </div>
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">Moltres é conhecido como o Pokémon da Chama (Flame Pokémon), é um Pokémon Lendário, uma das três aves lendárias, junto de Articuno e Zapdos. É uma grande ave que literalmente está em chamas, sendo relacionado a uma Fênix.</p>
+                </div>
+            </li>
+        </ul>
+        <button class="btn-seta" id="btn-avancar">
+            <img src="src/imagens/seta.png" alt="seta avançar">
+        </button>
+    </main>
+    <script src="src/js/index.js"></script>
+</body>
+</html>
